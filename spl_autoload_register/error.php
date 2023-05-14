@@ -1,0 +1,3 @@
+<?php
+
+$sampleA = new SampleA();

@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  php:
+    image: php:8.2.6
+    tty: true
+    volumes:
+      - .:/src/
+    working_dir: /src
